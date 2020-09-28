@@ -1,4 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Available Scripts
+
+To see the list of repos edit src/config/config.json and put your personal access tokens instead "PUT_YOUR_PERSONAL_ACCESS_TOKEN_HERE" placeholder
 
 ## Available Scripts
 
