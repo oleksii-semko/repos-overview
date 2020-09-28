@@ -1,0 +1,8 @@
+{
+    "api": {
+        "headers": {
+            "Authorization": "token 8f2980376da5ecbb638d4d959c200984fd89e43b"},
+        "url": "https://api.github.com/graphql",
+        "useGet": false
+    }
+}

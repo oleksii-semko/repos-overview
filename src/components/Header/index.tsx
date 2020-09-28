@@ -2,17 +2,17 @@ import * as React from 'react';
 import { GithubOutlined } from '@ant-design/icons';
 import { StyleSheet, css } from 'aphrodite';
 
-export interface HeaderProps {
-  title: string
+interface HeaderProps {
+  title?: string
 };
 
-export function Header({title = 'App header'}: HeaderProps) {
+const Header: React.FC<HeaderProps> = ({title = 'App header'}) => {
   return (
     <header className={css(styles.header)} >
         <GithubOutlined className={css(styles.icon)} />
         <span>{title}</span>
     </header>
-  )
+  );
 }
 
 const styles = StyleSheet.create({
@@ -29,4 +29,6 @@ const styles = StyleSheet.create({
     icon: {
       marginRight: '10px'
     }
-  });
+});
+
+export default Header;
